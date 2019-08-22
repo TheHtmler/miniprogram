@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="header">
+    <text>空气质量监测系统</text>
+  </view>
+  <form class="content" bindsubmit="formSubmit">
+    <view class="form-item">
+      <text>账号：</text>
+      <input type="text" name="username" placeholder="请输入账号..."></input>
+    </view>
+    <view class="form-item">
+      <text>密码：</text>
+      <input type="text" name="password" placeholder="请输入密码..."></input>
+    </view>
+    <view class="btn">
+      <button type="primary" form-type="submit">登陆</button>
+    </view>
+  </form>
+</view>
